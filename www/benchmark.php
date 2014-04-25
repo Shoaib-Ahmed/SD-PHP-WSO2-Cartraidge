@@ -16,7 +16,7 @@
 		echo $host;
 		echo "<br/>";
 		// Create connection
-		$con=mysqli_connect("54.86.38.65","SD_Proj","PasswordSD","SD_Proj_DB");
+		$con=mysqli_connect("54.86.21.203","SD_Proj","PasswordSD","SD_Proj_DB");
 
 		// Check connection
 		if (mysqli_connect_errno()) {
